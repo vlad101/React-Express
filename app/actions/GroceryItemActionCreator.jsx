@@ -33,14 +33,6 @@ var GroceryItemActionCreator = {
 				type: "grocery-item:delete"
 			})
 		);
-	},
-	update: function(item) {
-		return (
-			dispatcher.dispatch({
-				payload: item,
-				type: "grocery-item:update"
-			})
-		);
 	}
 };
 

@@ -44,6 +44,15 @@ Environment setup
 - Install skeleton
 	- $ bower install --save skeleton
 
+- Install body-parser
+	- $ npm install --save body-parser
+
+- Install jQuery
+	- $ npm install --save jquery
+
+- Install mongoose
+	- $ npm install --save mongoose
+
 - On error
 	- $ npm cache clean
 	- npm install -g <package> or npm install <package>

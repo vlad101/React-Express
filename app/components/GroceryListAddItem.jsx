@@ -3,9 +3,7 @@ var action = require('./../actions/GroceryItemActionCreator.jsx');
 
 var GroceryListAddItem = React.createClass({
 	getInitialState: function() {
-		return {
-			input:[]
-		};
+		return {input:""};
 	},
 	handleInputName: function(e) {
 		this.setState({input : e.target.value});
@@ -21,7 +19,7 @@ var GroceryListAddItem = React.createClass({
 		return (
 			<div className="grocery-addItem">
 				<form onSubmit={this.addItem}>
-					<input value={this.state.input} onChange={this.handleInputName} />
+					<input value={this.state.input} type="text" onChange={this.handleInputName} />
 					<button>Add Item</button>
 				</form>
 			</div>
