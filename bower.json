@@ -1,0 +1,22 @@
+{
+  "name": "react-express",
+  "description": "React-Express Tutorial",
+  "main": "index.js",
+  "authors": [
+    "Vladimir Efros"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/vlad101/React-Express",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "client/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react": "~0.14.3"
+  }
+}
