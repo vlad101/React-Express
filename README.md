@@ -36,10 +36,13 @@ Environment setup
 	- $ npm install -g browserify && npm install -save browserify
 
 - Install vinyl-source-stream
-	- $ npm install vinyl-source-stream
+	- $ npm install --save vinyl-source-stream
 
 - Install guid
 	- $ npm install --save guid
+
+- Install skeleton
+	- $ bower install --save skeleton
 
 - On error
 	- $ npm cache clean
