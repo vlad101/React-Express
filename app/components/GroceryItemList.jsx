@@ -1,6 +1,6 @@
 var React = require('react');
 var GroceryItem = require('./GroceryItem.jsx');
-GroceryListAddItem = require('./GroceryListAddItem.jsx');
+var GroceryListAddItem = require('./GroceryListAddItem.jsx');
 
 var GroceryItemList = React.createClass({
 	render: function() {

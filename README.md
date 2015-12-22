@@ -53,6 +53,14 @@ Environment setup
 - Install mongoose
 	- $ npm install --save mongoose
 
+- Install babel
+	- $ npm install --save babel babelify
+	- $ npm install -g babel
+	- $ npm install --global babel-cli
+
+- Install node-jsx
+	- $ npm install --save node-jsx
+
 - On error
 	- $ npm cache clean
 	- npm install -g <package> or npm install <package>
