@@ -17,9 +17,13 @@ function GroceryItemStore() {
 	};
 
 	function addGroceryItem(item) {
-		items.push(item);
-		triggerListeners();
-		helper.post("api/items", item);
+		if(item.length != 0) {
+		    helper.post("api/items",  item)
+		    .then(function (newItem, error){
+		      	items.push(newItem);
+		      	triggerListeners();
+		    });
+		}
 	};
 
 	function deleteGroceryItem(item) {

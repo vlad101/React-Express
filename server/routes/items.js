@@ -8,12 +8,12 @@ var items = function (app) {
 			res.send(doc);
 		});
 	})
-	.post(function (req, res) {
-		var item = req.body;
-		var groceryItem = new GroceryItem(item);
-		groceryItem.save(function(err,data) {
-			res.status(300).send();
-		});
+	.post(function(req, res){
+	    var item = req.body;
+	    var groceryItem = new GroceryItem(item);
+	    groceryItem.save(function(err, data) {
+	      	res.status(201).send(data);
+	    });
 	});
 
 	app.route('/api/items/:id')
